@@ -1,16 +1,21 @@
 .mainSectionDiv{
     display: grid;
     justify-content: center;
-    
 }
 
 .welcomeText{
     font-size: 80px;
     margin-top: 400px;
+    margin-bottom: 10px;
     color: rgb(104,104,104);
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;    
+    transition: color 1s;
+}
+
+.welcomeText:hover{
+    color: rgba(104,104,104,0.4);
 }
 
 @keyframes fadeInAnimation {
@@ -24,20 +29,19 @@
 
 
 .line{
-    border-bottom-style: solid;
+    width: 340px;
+    border:2px solid;
+    animation: lineAnimation 3s 1;
 }
 
 
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-  }
-.reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+
+@keyframes lineAnimation {
+0%{width:0px}
+100%{width:340px}
+}
+
+
   
 
 
