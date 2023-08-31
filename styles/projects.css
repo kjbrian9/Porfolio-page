@@ -1,13 +1,9 @@
 .mainSectionDiv{
     margin-left: 50px;
     margin-top: 200px;
-    display: grid;
-    grid-template-columns: 500px 200px 500px;
+
 }
 
-.ProjectDiv{
- margin-top: 20px;
-}
 
 .projectTitle{
     margin-top: 100px;
@@ -36,29 +32,41 @@
     opacity: 0.2;
 }
 
-.gitHubLogoBachelor{
-    margin-top: 10px;
+.gitHubLogoBachelor,.gitHubLogoYoutube,.gitHubLogoTodo{
+    margin-top: 90px;
+    margin-left: -100px;
 }
 
-.gitHubLogoYoutube{
-    margin-top: 120px;
-}
 
-.gitHubLogoTodo{
-    margin-top: 50px;
-}
 
 .bachelorsImage,.youtubeImage,.todoImage{
     width: 500px;
+    
 }
 
-.bachelorsImage{
-    margin-top: 150px;
-}
-.youtubeImage{
-    margin-top: 50px;
+.bachelorsImage,.todoImage,.youtubeImage{
+    margin-top: 120px;
+    margin-bottom: 200px;
 }
 
-.todoImage{
-    margin-top: 50px;
+.projectDiv{
+    display: grid;
+    grid-template-columns: 600px 100px 500px;
+    vertical-align: top;
+    border-bottom: 6px solid rgb(46, 46, 46);
+    width: 100%;
+    animation: lineAnimation 5s;
+    margin-left: -20px;
+    margin-top: -40px;
+    margin-bottom: 100px;
 }
+
+@keyframes lineAnimation {
+    0%{width:0%};
+    100%{width: 100%};
+}
+
+.horizontalLine{
+ border-bottom: 20px solid black;
+}
+
