@@ -70,3 +70,53 @@
  border-bottom: 20px solid black;
 }
 
+
+@media only screen and (max-width: 1300px){
+
+    .projectDiv{
+        display: grid;
+        grid-template-columns: 600px 100px;
+        vertical-align: top;
+        border-bottom: 6px solid rgb(46, 46, 46);
+        width: 100%;
+        animation: lineAnimation 5s;
+        margin-left: -20px;
+        margin-top: -40px;
+        margin-bottom: 100px;
+        
+    }
+  
+    .projectTitle{
+        margin-top: 0px;
+        font-size: 23px;
+        width: 300px;
+    }
+
+    .projectDescription{
+        width: 50%;
+      
+    }
+    .bachelorsImage,.todoImage,.youtubeImage{
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
+        margin-left: -300px;
+        margin-top: -30px;
+    }
+    
+    .mainSectionDiv{
+        width: 350px;
+    }
+
+    .infoContainer{
+        width: 300px;
+    }
+    
+
+ 
+
+    
+}

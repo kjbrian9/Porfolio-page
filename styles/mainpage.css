@@ -1,6 +1,7 @@
 .mainSectionDiv{
     display: grid;
-    justify-content: center;
+    grid-template-columns: 500px;
+    margin-left: 500px;
 }
 
 .welcomeText{
@@ -42,6 +43,46 @@
 }
 
 
+@media only screen and (max-width: 1300px){
+
+.welcomeText{
+      width: 600px;
+      font-size: 60px;
+      margin-left: 120px;
+      margin-top: 400px;
+      margin-bottom: 10px;
+      color: rgb(104,104,104);
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;    
+      transition: color 1s;
+      max-width: 50%;
+    }
+
+    
+
+
+.line{
+    width: 270px;
+    margin-left: 110px;
+    border:2px solid;
+    animation: lineAnimation 3s 1;
+}
+        
+
+@keyframes lineAnimation {  
+    0%{width:0px}
+    100%{width:270px}
+}
+
+.mainSectionDiv{
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 0px;
+}
+
+}
   
 
 
