@@ -6,9 +6,10 @@
 
 
 .projectTitle{
-    margin-top: 100px;
     margin-left: 30px;
     font-size: 40px;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .projectDescription{
@@ -25,34 +26,30 @@
 .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
     cursor: pointer;
     transition: opacity 0.5s;
-    width: 80%;
+    width: 25%;
+
 }
 
 .gitHubLogoBachelor:hover,.gitHubLogoTodo:hover,.gitHubLogoYoutube:hover{
     opacity: 0.2;
 }
 
-.gitHubLogoBachelor,.gitHubLogoYoutube,.gitHubLogoTodo{
-    margin-top: 90px;
-    margin-left: -100px;
-}
+
 
 
 
 .bachelorsImage,.youtubeImage,.todoImage{
     width: 500px;
+    margin-bottom: 20%;
+    margin-left: 40%;
     
 }
 
-.bachelorsImage,.todoImage,.youtubeImage{
-    margin-top: 120px;
-    margin-bottom: 200px;
-}
+
 
 .projectDiv{
     display: grid;
-    grid-template-columns: 600px 100px 500px;
-    vertical-align: top;
+    grid-template-columns:500px 500px;
     border-bottom: 6px solid rgb(46, 46, 46);
     width: 100%;
     animation: lineAnimation 5s;
@@ -70,12 +67,22 @@
  border-bottom: 20px solid black;
 }
 
+.titleLogo{
+    display: grid;
+    grid-template-columns: 500px 300px;
+    flex-direction: row;
+    width: 500px;
+    align-content: center;
+}
 
+.link{
+    margin-top: -3%;
+}
 @media only screen and (max-width: 650px){
 
     .projectDiv{
         display: grid;
-        grid-template-columns: 600px 100px;
+        grid-template-columns: 600px;
         vertical-align: top;
         border-bottom: 6px solid rgb(46, 46, 46);
         width: 100%;
@@ -85,12 +92,17 @@
         margin-bottom: 20%;
         margin-right: 0px;
     }
-  
+    
+
+
+
     .projectTitle{
         margin-top: 0px;
         font-size: 23px;
         width: 100%;
         margin-right: 0px;
+        margin-left: 5%;
+        
     }
 
     .projectDescription{
@@ -104,12 +116,11 @@
         margin-top: 5%;
         margin-bottom: 10%;
         margin-right: 0%;
+        margin-left: 0%;
     }
 
-    .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
-        margin-left: 0%;
-        margin-top: 50%;
-        margin-right: 0%;
+    .projectTitle.titleLogo{
+        width: 30%;
     }
     
     .mainSectionDiv{
@@ -121,13 +132,26 @@
         width: 50%;
         margin-right: 0px;
     }
-    
-    
-    a{
-        margin-right: 100%;
+    .titleLogo{
+        display: grid;
+        grid-template-columns: 300px 50px;
+        flex-direction: row;
+        width: 350px;
     }
-   
+    
  
+  
+    
+    .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
+        cursor: pointer;
+        transition: opacity 0.5s;
+        width: 50px;
+   }
+    
+   .link{
+    width: 50px;
+    margin-top: -20%;
+    }
 
     
 }
