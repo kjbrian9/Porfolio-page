@@ -23,9 +23,9 @@
 }
 
 .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
-    width: 70px;
     cursor: pointer;
     transition: opacity 0.5s;
+    width: 80%;
 }
 
 .gitHubLogoBachelor:hover,.gitHubLogoTodo:hover,.gitHubLogoYoutube:hover{
@@ -83,39 +83,50 @@
         margin-left: -20px;
         margin-top: -40px;
         margin-bottom: 100px;
-        
+        margin-right: 0px;
     }
   
     .projectTitle{
         margin-top: 0px;
         font-size: 23px;
-        width: 300px;
+        width: 100%;
+        margin-right: 0px;
     }
 
     .projectDescription{
-        width: 50%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
       
     }
     .bachelorsImage,.todoImage,.youtubeImage{
-        width: 350px;
+        width: 55%;
         margin-top: 20px;
         margin-bottom: 60px;
+        margin-right: 0px;
     }
 
     .gitHubLogoBachelor,.gitHubLogoTodo,.gitHubLogoYoutube{
         margin-left: -300px;
         margin-top: -30px;
+        margin-right: 0px;
     }
     
     .mainSectionDiv{
-        width: 350px;
+        width: 85%;
+        margin-right: 0px;
     }
 
     .infoContainer{
         width: 300px;
+        margin-right: 0px;
     }
     
-
+    
+    a{
+        margin-right: 1000px;
+    }
+   
  
 
     
