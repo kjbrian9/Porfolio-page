@@ -39,10 +39,10 @@
 
 
 .bachelorsImage,.youtubeImage,.todoImage{
-    width: 500px;
+    width: 100%;
     margin-bottom: 20%;
     margin-left: 40%;
-    
+    margin-top: 5%;
 }
 
 
