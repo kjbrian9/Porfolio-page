@@ -7,6 +7,7 @@
 .welcomeText{
     font-size: 10vw;
     margin-top: 30vw;
+    width: 43vw;
     margin-bottom: 10px;
     color: rgb(104,104,104);
     animation: fadeInAnimation ease 3s;
@@ -30,7 +31,7 @@
 
 
 .line{
-    width: 43vw;
+    width: 42vw;
     border:2px solid;
     animation: lineAnimation 3s 1;
 }
@@ -39,7 +40,7 @@
 
 @keyframes lineAnimation {
 0%{width:0px}
-100%{width:330px}
+100%{width: 42vw}
 }
 
 
@@ -48,7 +49,7 @@
 
     
 .line{
-        width: 100%;
+        width: 60vw;
         border:2px solid;
         animation: lineAnimation 3s 1;
 }
@@ -59,7 +60,7 @@
 
 @keyframes lineAnimation {  
     0%{width:0%}
-    100%{width:100%}
+    100%{width:60vw}
 }
 
 .mainSectionDiv{
@@ -67,8 +68,9 @@
     justify-content: center;
 }
 .welcomeText{
+    width: 60vw;
     margin-top: 80vw;
-    font-size: 15vw;
+    font-size: 14vw;
     justify-self: center;
 }
 
