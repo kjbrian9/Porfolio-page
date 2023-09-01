@@ -167,7 +167,10 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
     margin-left: 10%;
+    justify-content: center;
 }
+
+
 
 .verticalLine{
     margin-top: 30%;
@@ -196,11 +199,11 @@
 
 
 .informationDiv{
-    margin-top: 150px;
     display: grid;
     grid-template-columns: row;
     width: 300px;
     margin-bottom: 50px;
+    margin-top: 10%;
 }
 
 .meDiv{
@@ -229,6 +232,9 @@
     width: 100%;
 }
 
+.aboutMeTitle{
+    margin-top: 0px;
+}
 
 .shorterLine{
     width: 80%;
