@@ -137,10 +137,10 @@
 .aboutMeTitle{
  margin-top: -100px;
  font-size: 50px;
- animation: aboutMeTitleAnimation ease 4s;
+ animation: aboutMeTitleAnimation ease 2s;
  animation-iteration-count: 1;
  animation-fill-mode: forwards; 
- animation-delay: 4s;
+ animation-delay: 2s;
  visibility: hidden;
 }
 
@@ -155,7 +155,7 @@
 }
 
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width:  500px){
 
 
 .mainDiv{
@@ -165,11 +165,11 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
-    margin-left: 20px;
+    margin-left: 10%;
 }
 
 .verticalLine{
-    margin-top: 120px;
+    margin-top: 30%;
     border-left: 5px solid rgb(81, 81, 81);
     animation: verticalLineAnimation 4s 1; 
     height: 500px;
@@ -179,7 +179,7 @@
 .line{
     border-bottom-style: solid;
     border-bottom-width: 5px;
-    width: 330px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     color:rgb(0, 0, 0);
@@ -188,8 +188,8 @@
 
 
 @keyframes lineAnimation {
-    0%{width: 0px;}
-    100%{width:350px;}
+    0%{width: 0%;}
+    100%{width:100%;}
 }
 
 
@@ -205,7 +205,7 @@
 .meDiv{
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 200px;
+    margin-top: 60%;
     width: 300px;
     
 }
@@ -221,12 +221,22 @@
 
 .informationText{
     font-size: 14px;
-    width: 50%;
+    width: 80%;
 }
 
 .aboutMeTitle,.skills,.degree{
-    width: 300px;
+    width: 100%;
 }
 
 
+.shorterLine{
+    width: 80%;
+    border-bottom: 5px rgb(118, 118, 118) solid;
+    animation: shorterLineAnimation 4s 1;
+}
+
+@keyframes shorterLineAnimation{
+    0%{width:0%;}
+    100%{width: 80%;}
+}
 }
